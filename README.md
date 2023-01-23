@@ -13,10 +13,10 @@ Se utilizaron estreategias de diseño centrado en el usuario y de diseño de la 
 La UI se diseño partiendo de los resultados que arrojaban la UX. Primero se fueron escalando los wireframes desde baja a alta fidelidad. Por ultimo se paso al prototipado. 
 
 ## Desarrollo Sitio Web
-📱 Diseñado al estilo de la aplicación.
-❤️ Desarrollado con Typescript
-🏞️ los estilos fueron integramente hechos con CSS3 
-⛡ Utilizacion de HTML5
+📱 Diseñado al estilo de la aplicación. <br>
+❤️ Desarrollado con Typescript<br>
+🏞️ los estilos fueron integramente hechos con CSS3 <br>
+⛡ Utilizacion de HTML5 <br>
 
 ## Acceso
 Para poder acceder al codigo debe clonar el archivo desde el repositorio https://github.com/sebastianbarcia/rentalkites.git
