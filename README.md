@@ -1,3 +1,3 @@
 # rentalkites
 
-<img src ="../public/images/logo-rentalkites.svg">
+<img src ="/public/images/logo-rentalkites.svg">
