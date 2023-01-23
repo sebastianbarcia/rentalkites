@@ -11,11 +11,11 @@ La aplicación consiste en el intercambio entre los usuarios de equipamiento par
 ### Diseño UX de la aplicacion 
 Se utilizaron estreategias de diseño centrado en el usuario y de diseño de la experiencia del usuario en la app (UX). 
 
-
 ### Diseño UI de la aplicación
 La UI se diseño partiendo de los resultados que arrojaban la UX. Primero se fueron escalando los wireframes desde baja a alta fidelidad.
+
 ### Prototipado
-![DesktopVideo](/public/images/VideoPrototipo.mp4)
+![video](/public/images/VideoPrototipo.mp4)
 
 
 ## Desarrollo Sitio Web
