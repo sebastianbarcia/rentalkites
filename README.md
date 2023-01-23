@@ -17,6 +17,7 @@ La UI se diseño partiendo de los resultados que arrojaban la UX. Primero se fue
 ### Prototipado
 
 <div align="center">
+<img src="/public/images/GifPrototipo.gif"> 
 ![prototipo](/public/images/GifPrototipo.gif)
 </div>
 
