@@ -18,10 +18,12 @@ La UI se diseño partiendo de los resultados que arrojaban la UX. Primero se fue
 🏞️ los estilos fueron integramente hechos con CSS3 <br>
 ⛡ Utilizacion de HTML5 <br>
 
-## Acceso
+## Acceso al código
+
+### Instalación
 Para poder acceder al codigo debe clonar el archivo desde el repositorio https://github.com/sebastianbarcia/rentalkites.git
 
-### Utilización  
+### Administración del archivo  
 Abrir en carpeta "RENTAL_KITES-TS"
 
 ### Node modules
