@@ -15,7 +15,10 @@ Se utilizaron estreategias de diseño centrado en el usuario y de diseño de la 
 La UI se diseño partiendo de los resultados que arrojaban la UX. Primero se fueron escalando los wireframes desde baja a alta fidelidad.
 
 ### Prototipado
-<img src="/public/images/prototipo-rental_kites.mp4"> 
+
+<div align="center">
+[prototipo](/public/images/GifPrototipo.gif)
+</div>
 
 ## Desarrollo Sitio Web
 📱 Diseñado al estilo de la aplicación. <br>
