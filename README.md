@@ -16,6 +16,10 @@ La UI se diseño partiendo de los resultados que arrojaban la UX. Primero se fue
 
 ### Prototipado
 
+<div align="center">
+https://user-images.githubusercontent.com/93622276/214059800-13ab6f17-5caa-4b21-83a0-59177da80795.mp4
+</div>
+
 
 ## Desarrollo Sitio Web
 📱 Diseñado al estilo de la aplicación. <br>
