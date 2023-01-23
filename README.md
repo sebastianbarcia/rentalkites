@@ -16,8 +16,6 @@ La UI se diseño partiendo de los resultados que arrojaban la UX. Primero se fue
 
 ### Prototipado y uso de la app
 
-
-    https://user-images.githubusercontent.com/93622276/214056247-f2b7bd01-bb55-4e02-846b-72a399dc80e2.mp4
 ## Desarrollo Sitio Web
 📱 Diseñado al estilo de la aplicación. <br>
 ❤️ Desarrollado con Typescript<br>
