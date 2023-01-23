@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/general.css" rel="stylesheet" type="text/css" />
+    <link href="./css/index.css" rel="stylesheet" type="text/css" />
+    <link href="./css/checkout.css" rel="stylesheet" type="text/css" />
+    <link href="./css/funcionality.css" rel="stylesheet" type="text/css" />
+    <link href="./css/experiences.css" rel="stylesheet" type="text/css" />
+    <link href="./css/aboutUs.css" rel="stylesheet" type="text/css" />
+    <title>Rental kites</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="logoContainer main-logo flexJustifyContentCenter flexJustifyContentStart">
+        <img style="width: 140px; margin-bottom: 2rem; margin-top: 2rem;" src="./images/logo-rentalkites.svg" />
+      </div>
+      <nav id="nav" class="main-nav flexJustifyContentStart">
+        <div class="nav-links">
+          <a href="">Buscador</a>
+          <a href="#/funcionalidad">Como Funciona</a>
+          <a href="#/experiencias">Experiencias</a>
+          <a href="#/acercadenosotros">Acerca de nosotros</a>
+        </div>
+      </nav>
+
+      <button id="button-menu" class="button-menu flexJustifyContentCenter">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+    <div id="app"></div>
+    <script type="module" src="/build/router.js"></script>
+    <script type="module" src="/build/pages/home.js"></script>
+    <script type="module" src="/build/index.js"></script>
+    <script type="module" src="/build/pages/checkout.js"></script>
+  </body>
+</html>

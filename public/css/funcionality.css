@@ -1,0 +1,273 @@
+.firstSectionFuncionality{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--greyColor);
+}
+
+.firstSectionFuncionality h4{
+    margin: 0rem 0rem;
+}
+
+h4{
+    color: var(--greyColor);
+}
+
+.firstSectionFuncionality img{
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    width: 30%;
+}
+
+.firstSectionFuncionality p{
+    color: var(--greyColor);
+}
+
+.imagesFunctionality{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.imagesFunctionality img{
+    height: 269px;
+}
+
+.classPages header{
+    background-color: var(--brandColorTwo);
+    padding-bottom: 2rem;
+}
+
+.secondSectionFuncionality {
+   
+    background-color: var(--brandColorThree);
+    padding-bottom: 2rem;
+}
+
+.secondSectionFuncionality .containerSection{
+    margin-top: 6rem;
+}
+
+.secondSectionFuncionality h4{
+   text-align: center;
+   margin-top: 0px;
+   color: var(--whiteColor);
+}
+
+.secondSectionFuncionality .containerSection{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 8rem;
+    padding-bottom: 4rem;
+}
+
+
+.secondSectionFuncionality .containerDiv div div{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.secondSectionFuncionality .containerSection .containerDiv{
+    background-color: var(--whiteColor);
+    border-radius: 15px;
+    padding: 4rem 5rem;
+    box-shadow: 0px 0px 14px 1px grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.secondSectionFuncionality .containerDiv div .numberFuncionality{
+    color: white;
+    background-color: var(--brandColorTwo);
+    border-radius: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;   
+}
+
+.secondSectionFuncionality .containerDiv div div img{
+    width: 60px;
+}
+
+.secondSectionFuncionality .containerDiv div p{
+    font-size: large;
+    width: 450px;
+    text-align: left;
+    color: var(--greyColor);
+}
+
+/*Wave inicio*/
+
+.bg_color {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+  }
+  .wave {
+    background-image: url(../images/vectors/wave.svg);
+    width: 6000px;
+    height: 100%;
+    top: -2px;
+    position: absolute;
+    background-position: bottom;
+  }
+  
+.cover{
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+        width: 100%;
+        padding-bottom: 120px;
+        font-family: 'Poppins', sans-serif;
+        padding-top: 100px;
+        position: relative;
+        overflow: hidden;
+  
+}
+
+.container_all{
+    position: relative;
+    right: 0;
+    transition: all 300ms;
+}
+
+.w1{
+    animation: w1 20s linear infinite;
+}
+
+.w2{
+    animation: w2 20s linear -.125s infinite, desplazamiento 20s ease  -.125s infinite; 
+    opacity: 0.5;
+}
+@keyframes w1{
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: -2934.26px;
+    }
+}
+
+@keyframes w2{
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: -2934.26px;
+    }
+}
+
+@keyframes desplazamiento{
+    0%, 100%{
+        transform: translateY(-25px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+}
+
+
+  /*Wave final*/
+  
+
+.margend{
+    background-color: var(--brandColorThree);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+ 
+
+ .imgWidthMargend{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ }
+
+ .img-download-app{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: var(--brandColorThree);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+ }
+
+.img-download-app a:hover{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+
+ .img-download-app img{
+    height: 60px;
+ }
+
+.all-screens img{
+    width: 100%;
+}
+ 
+.textFuncionalitysDownload{
+    background-color: var(--brandColorThree);
+    color: var(--whiteColor);
+    text-align: center;
+    margin: 0px;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.text-margin-top-bottom{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+
+@media screen and (max-width:1290px) {
+    .secondSectionFuncionality .containerSection .containerDiv{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .firstSectionFuncionality > p{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .secondSectionFuncionality .containerSection .containerDiv{
+       padding-right: 1rem;
+       padding-left: 1rem;
+    }
+    .firstSectionFuncionality img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .secondSectionFuncionality .containerDiv div p{
+       width: 250px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .secondSectionFuncionality .containerDiv div div{
+        flex-direction: column;
+    }
+    .secondSectionFuncionality .containerDiv div div p{
+        text-align: center;
+    }
+}

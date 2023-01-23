@@ -1,0 +1,47 @@
+#experienciesTable{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.experiencesStyles{
+   width: 350px;
+   border-radius: 15px;
+   padding: 2rem;
+   box-shadow: 0px 0px 11px 1px var(--greyColorBoxShadowHover);
+   margin: 0rem 2rem 
+}
+
+.experiencesStyles div{
+    display: flex;
+    flex-direction: column;
+}
+
+.experiencesStyles div img{
+    width: 100px;
+    height: 100px;
+    border-radius: 1600px;
+}
+
+.titleText{
+    font-weight: 800;
+}
+
+p{
+    font-size:large;
+}
+
+.titleExp h4{
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+@media screen and (max-width:1433px) {
+    .experiencesStyles{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .titleExp h4 {
+        margin-bottom: 5rem;
+    }
+}

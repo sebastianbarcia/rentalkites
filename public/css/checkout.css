@@ -1,0 +1,115 @@
+h4{
+   margin-bottom: 2rem;
+   color: var(--whiteColor);
+}
+
+.checkoutStyle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.checkoutStyle .divContainer{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.checkoutStyle div div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.checkoutStyle .containerEquipment{
+    justify-content: space-around;
+    background-color: var(--whiteColor);
+    border-radius: 15px;
+}
+
+.checkoutStyle div div div{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkoutStyle img{
+    width: 40%;
+    padding: 3rem;
+}
+
+.divButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.checkoutStyle .groupInputCheckout{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+
+.checkoutStyle .groupInputCheckout input{
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: large;
+    border-radius: 0.5rem;
+    border: 0 solid ;
+    padding: 0.5rem 1rem; 
+}
+
+
+button{
+    border: 0 solid ;
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    font-size: large;
+    border-radius: 6px;
+    background-color: var(--whiteColor);
+}
+.checkoutStyle .groupInputCheckout input {
+    width: auto;
+}
+
+@media screen and (max-width: 1280px){
+   
+    .checkoutStyle .divContainer{
+        width: 65%;
+    }
+    .checkoutStyle img {
+        width: 30%;
+        padding: 2rem 1rem;
+    }
+    .divButton{
+        margin-top: 0rem;
+    }
+    .checkoutStyle .groupInputCheckout{
+        margin-top:0rem;
+    }
+}
+
+
+@media screen and (max-width: 884px){
+   
+  
+    .containerEquipment{
+        margin: 0rem 1rem;
+    }
+    .equipmentTitle{
+        margin-left: 1rem;
+    }
+    .checkoutStyle .divContainer {
+        width: 90%;
+    }
+   
+
+    .divButton{
+        margin-top: 0rem;
+    }
+    .divButton > #btnRent{
+        margin-top: 1rem;
+        font-size: medium;
+        padding: 1rem 2rem;
+    }
+}

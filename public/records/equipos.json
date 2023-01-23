@@ -1,0 +1,161 @@
+
+    [
+        {
+        "pais":"Argentina",
+        "ciudad": "Buenos Aires",
+        "id": 2,
+        "tipo": "Kite",
+        "marca": "Cabrinha",
+        "modelo": "Switchblade",
+        "anio": 2021,
+        "imagen": "swichblade2-cabrinha.jpeg",
+        "desde": 1667001600000,
+        "hasta": 1700265600000
+        },
+        {
+        "pais":"Brasil",
+        "ciudad": "Fortaleza",
+        "id": 3,
+        "tipo":"Kiteboard",
+        "marca": "Cabrinha",
+        "modelo": "Switchblade",
+        "anio": 2020,
+        "imagen": "all-switchblade.jpeg",
+        "desde": 1667001600000,
+        "hasta": 1700265600000
+        },
+        {
+        "pais":"Republica dominicana",
+        "ciudad": "Cabarete",
+        "id": 4,
+        "tipo":"Kiteboard",
+        "marca": "Duotone",
+        "modelo": "Duotone",
+        "anio": 2020,
+        "imagen":"duotone-all.jpeg",
+        "desde": 1667001600000,
+        "hasta": 1700265600000
+        },
+        {
+        "pais":"Brasil",
+        "ciudad": "Jericoará",
+        "id": 5,
+        "tipo": "All",
+        "marca": "Cabrinha",
+        "modelo": "Moto",
+        "imagen":"moto-all.jpeg",
+        "anio": 2018,
+        "desde": 1672272000000,
+        "hasta": 1700265600000
+        },
+        {
+        "pais":"España",
+        "ciudad": "Tarifa",
+        "id": 6,
+        "tipo":"Board",
+        "imagen":"airush-board.jpeg",
+        "marca": "Airush",
+        "modelo": "Tabla",
+        "anio": 2021,
+        "desde": 1676764800000,
+        "hasta": 1700265600000
+        },
+        {
+        "pais":"Portugal",
+        "ciudad": "Viana do castelo",
+        "id": 7,
+        "tipo":"Board",
+        "marca": "Cabrinha",
+        "modelo": "Surfer",
+        "anio": 2022,
+        "imagen":"cabrinha-surfer-tabla.jpeg",
+        "desde": 1673364800000,
+        "hasta": 1676764800000
+        },
+        {
+        "pais":"Argentina",
+        "ciudad": "Buenos Aires",
+        "id": 8,
+        "tipo":"All",
+        "marca": "Duotone",
+        "modelo": "Duotone",
+        "imagen":"duotone-all.jpeg",
+        "anio": 2022,
+        "desde":1667001600000,
+        "hasta":1700265600000
+        },
+        {
+        "pais":"Argentina",
+        "ciudad": "Buenos Aires",
+        "id": 9,
+        "tipo":"Board",
+        "marca": "Slingshot",
+        "modelo": "Board",
+        "imagen":"slingshot-board.jpeg",
+        "anio": 2022,
+        "desde": 1664976000000,
+        "hasta": 1700265600000
+        },
+        {
+        "pais":"Argentina",
+        "ciudad": "Buenos Aires",
+        "id": 10,
+        "tipo":"Kite",
+        "marca": "Cabrinha",
+        "modelo": "Switchblade",
+        "anio": 2022,
+        "imagen":"switchblade.jpeg",
+        "desde":1670976000000,
+        "hasta": 1700265600000
+        },
+        {
+        "pais":"Argentina",
+        "ciudad": "Cuesta del viento",
+        "id": 11,
+        "tipo":"All",
+        "marca": "Cabrinha",
+        "modelo": "Switchblade",
+        "imagen":"all-switchblade.jpeg",
+        "anio": 2022,
+        "desde":1667001600000,
+        "hasta":1705265600000
+        }
+        ,
+        {
+        "pais":"Brasil",
+        "ciudad": "Rio de Janeiro",
+        "id": 12,
+        "tipo": "Kite",
+        "imagen":"switchblade.jpeg",
+        "marca": "Cabrinha",
+        "modelo": "Switchblade",
+        "anio": 2020,
+        "desde": 1672272000000,
+        "hasta": 1700265600000
+        },
+        {
+        "pais":"Brasil",
+        "ciudad": "Cumbuco",
+        "id": 13,
+        "tipo": "Board",
+        "marca": "Slinsgshot",
+        "modelo": "Carbon",
+        "imagen":"slingshot-carbon-board.jpeg",
+        "anio": 2020,
+        "desde": 1672272000000,
+        "hasta": 1700265600000
+        },
+        {
+        "pais":"Brasil",
+        "ciudad": "Cumbuco",
+        "id": 14,
+        "marca": "Cabrinha",
+        "modelo": "Spectrum",
+        "tipo": "Board",
+        "imagen":"spectrum-2022-board.jpeg",
+        "anio": 2022,
+        "desde": 1670272000000,
+        "hasta": 1700265600000
+            }              
+   
+    ]

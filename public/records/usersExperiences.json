@@ -1,0 +1,30 @@
+[
+    {
+        "usuario": "Jorge",
+        "id": 1,
+        "title": "Repetiria sin lugar a dudas",
+        "origen": "Es de Buenos Aires, Argentina",
+        "viaje": "Viajo a Playa del Carmen, Mexico",
+        "equipo": "Escogio un equipo completo",
+        "img": "images/users/imagenJorge.jpg"
+    },
+    {
+        "usuario": "Julia",
+        "id": 2,
+        "title": "La proxima no llevo ningun equipo",
+        "origen": "Es de Lima, Peru",
+        "viaje": "Viajo a Cumbuco, Brasil",
+        "equipo": "Escogio solo la tabla, el resto ya lo tenia",
+        "img": "images/users/imagenJulia.jpg"
+    },
+    {
+        "usuario": "Marcos",
+        "id": 3,
+        "title": "Ahora puedo disfrutar del kite en cualquier lugar",
+        "origen": "Es de Toledo, España",
+        "viaje": "Viajo a Tenerife, España",
+        "equipo": "Escogio un equipo completo",
+        "img": "images/users/imagenMarcos.jpg"
+    }
+
+]
