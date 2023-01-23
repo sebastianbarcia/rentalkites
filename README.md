@@ -2,13 +2,13 @@
     <img width="40%" src ="/public/images/logo-readme.svg">
 </div>
 
-# rentalkites
+## rentalkites
 Sitio web creado para dar a conocer la aplicación Rental Kites
 
 ## Acerca de la aplicación
 La aplicación consiste en el intercambio entre los usuarios de equipamiento para practicar kitesurf.
 
-## Diseño de la aplicacion 
+### Diseño de la aplicacion 
 Se utilizaron estreategias de diseño centrado en el usuario y de diseño de la experiencia del usuario en la app (UX). 
 La UI se diseño partiendo de los resultados que arrojaban la UX. Primero se fueron escalando los wireframes desde baja a alta fidelidad. Por ultimo se paso al prototipado. 
 
@@ -33,10 +33,8 @@ Para ver el proyecto en el navegador instale la extension live server, y luego p
 ### Modificaciones
 En caso de modificar los archivos, ejecute el comando npm run transpilation en el terminal y visualize el navegador.
 
-
 ## LICENCE 
 This project is licensed under the Sebastian Barcia License 
-
 
 ## AUTOR
 ⌨️ with ❤️ by Sebastian Barcia 😊
