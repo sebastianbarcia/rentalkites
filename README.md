@@ -14,6 +14,10 @@ Se utilizaron estreategias de diseño centrado en el usuario y de diseño de la 
 ### Diseño UI de la aplicación
 La UI se diseño partiendo de los resultados que arrojaban la UX. Primero se fueron escalando los wireframes desde baja a alta fidelidad.
 
+<div align="center">
+    <img src="/public/images/wireframes-rentalkites.png"> 
+</div>
+
 ### Prototipado
 
 <div align="center">
