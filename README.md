@@ -15,7 +15,7 @@ Se utilizaron estreategias de diseño centrado en el usuario y de diseño de la 
 La UI se diseño partiendo de los resultados que arrojaban la UX. Primero se fueron escalando los wireframes desde baja a alta fidelidad.
 
 ### Prototipado
-![video](/public/images/VideoPrototipo.mp4)
+![video](/public/images/8510.jpg)
 
 
 ## Desarrollo Sitio Web
