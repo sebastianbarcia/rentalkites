@@ -103,7 +103,9 @@ if (typeof document !== "undefined") {
                 pais: equipamientos.pais,
                 ciudad: equipamientos.ciudad,
                 anio: equipamientos.anio,
-                img: equipamientos.imagen
+                img: equipamientos.imagen,
+                marca: equipamientos.marca,
+                modelo: equipamientos.modelo,
             };
             card.innerHTML = `
     <button class="equipments_results" data-id=${equipmentsRental.id} role="link">
@@ -144,7 +146,9 @@ if (typeof document !== "undefined") {
                     pais: element.pais,
                     ciudad: element.ciudad,
                     anio: element.anio,
-                    img: element.imagen
+                    img: element.imagen,
+                    marca: element.marca,
+                    modelo: element.modelo,
                 };
                 checkout(equipmentSelecter);
             }

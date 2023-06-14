@@ -134,7 +134,9 @@ function introduccionDatos(equipment: any){
       pais: equipamientos.pais,
       ciudad: equipamientos.ciudad,
       anio: equipamientos.anio,
-      img : equipamientos.imagen
+      img : equipamientos.imagen,
+      marca : equipamientos.marca,
+      modelo : equipamientos.modelo,
     }
    
     card.innerHTML = `
@@ -188,7 +190,9 @@ function clickSelection(boton:any , _equipments: any){
                 pais: element.pais,
                 ciudad: element.ciudad,
                 anio: element.anio,
-                img : element.imagen
+                img : element.imagen,
+                marca: element.marca,
+                modelo : element.modelo,
               }
 
        checkout(equipmentSelecter)

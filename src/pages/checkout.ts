@@ -4,6 +4,8 @@ export function checkout(equipment: {
   ciudad: string;
   anio: number;
   img: string;
+  marca: string;
+  modelo: string;
 }) {
   const containerHomes = document.querySelector("#app")!;
 
@@ -14,10 +16,10 @@ export function checkout(equipment: {
                 <h4 class="equipmentTitle">Equipo elegido</h4>
                 <div class="containerEquipment">
                     <div>
-                        <p>Referencia ${equipment.id}</p>
-                        <p>Pais ${equipment.pais}</p>
-                        <p>Ciudad ${equipment.ciudad}</p>
-                        <p>Año ${equipment.anio}</p>
+                        <p>Equipo: ${`${equipment.marca} ${equipment.modelo}`} </p>
+                        <p>Año: ${equipment.anio}</p>
+                        <p>Pais: ${equipment.pais}</p>
+                        <p>Ciudad: ${equipment.ciudad}</p>
                     </div>
                     <img src = "../public/images/equipments/${equipment.img}" alt="equipments_images">
                 </div>
@@ -26,7 +28,7 @@ export function checkout(equipment: {
                 <h4>Introduce tus datos</h4>
                 <div class="groupInputCheckout">
                     <input type="text" name="name" id="userName" placeholder="Nombre y apellido">
-                    <input type="email" name="mail"  id="userMail" placeholder="Correo electronico">    
+                    <input type="email" name="mail" id="userMail" placeholder="Correo electronico">    
                 </div>
                 <div class="divButton">
                   <button id="btnRent">Alquilar</button>
@@ -55,7 +57,7 @@ export function checkout(equipment: {
    
         
     alert(
-      `Haz elegido la referencia Nº${equipment.id} del año ${equipment.anio} de un equipo situado en ${equipment.ciudad} ${equipment.pais}.  ${userName} tu numero de referencia es el ${orderX}, te llegara un correo de confirmación de tu pedido a ${userMail}`
+      `Haz elegido ${`${equipment.marca} ${equipment.modelo}`} situado en ${equipment.ciudad} ${equipment.pais}.  ${userName} tu numero de referencia es el ${orderX}, te llegara un correo de confirmación de tu pedido a ${userMail}`
     );
     //Redirige a pagina principal. modificar en caso de hacer deploy
     location.href = "http://127.0.0.1:5500/public/index.html"
