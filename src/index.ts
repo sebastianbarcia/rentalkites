@@ -6,7 +6,7 @@ if (typeof document !== "undefined") {
   
   const obtenerDatos = async () => {
     try {
-      let response = await fetch("../public/records/equipos.json");
+      let response = await fetch("./public/records/equipos.json");
       let equipos = await response.json();
 
       let buttonSearch = document.getElementById("onClickSearch")!;

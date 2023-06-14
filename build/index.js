@@ -12,7 +12,7 @@ import { toastInfo } from "./functions.js";
 if (typeof document !== "undefined") {
     const obtenerDatos = () => __awaiter(void 0, void 0, void 0, function* () {
         try {
-            let response = yield fetch("../public/records/equipos.json");
+            let response = yield fetch("./public/records/equipos.json");
             let equipos = yield response.json();
             let buttonSearch = document.getElementById("onClickSearch");
             buttonSearch.addEventListener("click", clickSearch);
