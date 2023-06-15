@@ -6,7 +6,7 @@
         "origen": "Es de Buenos Aires, Argentina",
         "viaje": "Viajo a Playa del Carmen, Mexico",
         "equipo": "Escogio un equipo completo",
-        "img": "images/users/imagenJorge.jpg"
+        "img": "./public/images/users/imagenJorge.jpg"
     },
     {
         "usuario": "Julia",
@@ -15,7 +15,7 @@
         "origen": "Es de Lima, Peru",
         "viaje": "Viajo a Cumbuco, Brasil",
         "equipo": "Escogio solo la tabla, el resto ya lo tenia",
-        "img": "images/users/imagenJulia.jpg"
+        "img": "./public/images/users/imagenJulia.jpg"
     },
     {
         "usuario": "Marcos",
@@ -24,7 +24,7 @@
         "origen": "Es de Toledo, España",
         "viaje": "Viajo a Tenerife, España",
         "equipo": "Escogio un equipo completo",
-        "img": "images/users/imagenMarcos.jpg"
+        "img": "./public/images/users/imagenMarcos.jpg"
     }
 
 ]
