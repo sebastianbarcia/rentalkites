@@ -21,7 +21,7 @@ export function checkout(equipment: {
                         <p>Pais: ${equipment.pais}</p>
                         <p>Ciudad: ${equipment.ciudad}</p>
                     </div>
-                    <img src = "../public/images/equipments/${equipment.img}" alt="equipments_images">
+                    <img src = "./public/images/equipments/${equipment.img}" alt="equipments_images">
                 </div>
             </div>
             <div class="divContainer">

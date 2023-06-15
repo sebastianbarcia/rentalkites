@@ -146,7 +146,7 @@ function introduccionDatos(equipment: any){
         <p>${equipmentsRental.ciudad}</p>
         <p>${equipmentsRental.anio}</p>
       </div>
-      <img src = "../public/images/equipments/${equipmentsRental.img}" class="equipments_img" alt="equipments_images">
+      <img src = "./public/images/equipments/${equipmentsRental.img}" class="equipments_img" alt="equipments_images">
     </button>
     `
     if(contenedor){
