@@ -91,11 +91,11 @@ p {
 }
 
 .teamRentalKites .imgTeam {
-  background-image: url("/public/images/kiterteam.webp");
+  background-image: url("./public/images/kiterteam.webp");
 }
 
 .imgPlaceTeam {
-  background-image: url("/public/images/image.jpg");
+  background-image: url("./public/images/image.jpg");
 }
 
 .teamRentalKites {
@@ -138,7 +138,7 @@ p {
   height: 100%;
   background-position: center;
   background-size: cover;
-  background-image: url("/public/images/image.jpg");
+  background-image: url("./public/images/image.jpg");
   transition: 0.7s;
   display: flex;
   justify-content: center;
@@ -149,7 +149,7 @@ p {
   height: 100%;
   background-position: center;
   background-size: cover;
-  background-image: url("/public/images/kiterteam.webp");
+  background-image: url("./public/images/kiterteam.webp");
   transition: 0.7s;
   display: flex;
   justify-content: center;
