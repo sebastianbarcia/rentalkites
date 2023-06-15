@@ -23,7 +23,7 @@ usersExp()
 const usersExp = async () => {
    
     try {
-        let response = await fetch("/public/records/usersExperiences.json");
+        let response = await fetch("./public/records/usersExperiences.json");
         const users = await response.json();
 
         const usersExperiences = document.querySelector('#experienciesTable')!;

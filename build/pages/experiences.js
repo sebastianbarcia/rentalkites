@@ -23,7 +23,7 @@ export default function experiencies() {
 }
 const usersExp = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        let response = yield fetch("/public/records/usersExperiences.json");
+        let response = yield fetch("./public/records/usersExperiences.json");
         const users = yield response.json();
         const usersExperiences = document.querySelector('#experienciesTable');
         users.map((item) => usersExperiences.innerHTML += `
