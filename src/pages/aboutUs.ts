@@ -11,7 +11,7 @@ aboutUs.innerHTML = `
         <h4>Somos un equipo de trabajo que tenia un problema</h4>
     
     <div class="ask marginPageAboutUs">
-        <img src="../public/images/vectors/ask.svg">
+        <img src="./public/images/vectors/ask.svg">
         <div>
         <h3>Problema</h3>
         <ul>
@@ -35,7 +35,7 @@ aboutUs.innerHTML = `
 
     <div class="target marginPageAboutUs">
        
-        <img src="../public/images/vectors/target.svg">  
+        <img src="./public/images/vectors/target.svg">  
         <div>
         <h3>Objetivo</h3>
         <p>Facilitar la practica del kitesurf a traves del alquiler de equipo a buen precio y en buenas condiciones en cualquier parte del mundo sin complicaciones</p>
@@ -43,7 +43,7 @@ aboutUs.innerHTML = `
     </div>
 
     <div class="solution marginPageAboutUs">
-        <img src="../public/images/vectors/isologotipo.svg">
+        <img src="./public/images/vectors/isologotipo.svg">
         <div>
             <h3>Solución</h3>
             <p>Rental Kite es una app sencilla e intuitiva que le permite a los amantes del Kitesurf alquilar equipos en cualquier parte del mundo a precios accesibles y sin complicaciones</p>
@@ -51,12 +51,12 @@ aboutUs.innerHTML = `
     </div>
     <div class="missionValue">
         <div>
-            <img src="../public/images/achievement.png">
+            <img src="./public/images/achievement.png">
             <h3>Misión</h3>
             <p>Estamos convencidos de todos los kiters del mundo puedan practicar su deporte favorito donde quieran, sin problemas!</p>
         </div>
         <div>
-            <img src="../public/images/diamond.png">
+            <img src="./public/images/diamond.png">
             <h3>Valor</h3>
             <p>Tambien buscamos que sea una herramienta de ayuda a quienes deseen ganar un dinero extra alquilando sus equipos a otros kiters</p>
         </div>
