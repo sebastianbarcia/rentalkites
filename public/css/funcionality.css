@@ -1,26 +1,32 @@
 .firstSectionFuncionality{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     color: var(--greyColor);
+    background-color: var(--brandColorFour);
+    padding: 0 25%;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    gap: 1rem;
 }
 
 .firstSectionFuncionality h4{
     margin: 0rem 0rem;
 }
-
+.firstSectionFuncionality h3{
+    color: white;
+    font-size: xx-large;
+}
 h4{
     color: var(--greyColor);
 }
 
 .firstSectionFuncionality img{
-    margin-top: 2rem;
-    margin-bottom: 8rem;
-    width: 30%;
+    width: 40%;
 }
 
 .firstSectionFuncionality p{
-    color: var(--greyColor);
+    color: var(--whiteColor);
+    font-size: 24px;
 }
 
 .imagesFunctionality{
@@ -34,7 +40,7 @@ h4{
 }
 
 .classPages header{
-    background-color: var(--brandColorTwo);
+    background-color: var(--brandColorFour);
     padding-bottom: 2rem;
 }
 
@@ -49,6 +55,7 @@ h4{
 }
 
 .secondSectionFuncionality h4{
+    font-size: xx-large;
    text-align: center;
    margin-top: 0px;
    color: var(--whiteColor);
@@ -76,7 +83,6 @@ h4{
     background-color: var(--whiteColor);
     border-radius: 15px;
     padding: 4rem 5rem;
-    box-shadow: 0px 0px 14px 1px grey;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -133,7 +139,7 @@ h4{
         padding-top: 100px;
         position: relative;
         overflow: hidden;
-  
+        background-color: var(--brandColorFour);
 }
 
 .container_all{
@@ -245,6 +251,10 @@ h4{
         margin-right: 2rem;
         text-align: center;
     }
+    .firstSectionFuncionality{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
 }
 
 @media screen and (max-width:990px) {
@@ -253,8 +263,16 @@ h4{
        padding-left: 1rem;
     }
     .firstSectionFuncionality img {
-        width: 60%;
+        width: 100%;
     }
+    .firstSectionFuncionality{
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 0.1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
 
 @media screen and (max-width:720px) {

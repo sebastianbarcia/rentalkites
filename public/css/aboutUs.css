@@ -4,7 +4,7 @@
 }
 
 .aboutUs img {
-  width: 15%;
+  width: 5%;
 }
 
 .aboutUs .ask {
@@ -45,7 +45,7 @@ p {
 
 .target {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   gap: 4rem;
   margin-top: 6rem;
@@ -54,7 +54,7 @@ p {
 
 .solution {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   gap: 4rem;
   margin: 6rem 0rem;
@@ -68,6 +68,11 @@ p {
   gap: 4rem;
   padding: 7rem 0rem;
   background-color: var(--whiteColorTwo);
+  background-image: url("../images/fondo-rentalkites.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  
+  background-size: cover;
 }
 
 .missionValue div {
@@ -138,7 +143,7 @@ p {
   height: 100%;
   background-position: center;
   background-size: cover;
-  background-image: url("./public/images/image.jpg");
+  background-image: url("../images/image.jpg");
   transition: 0.7s;
   display: flex;
   justify-content: center;
@@ -149,7 +154,7 @@ p {
   height: 100%;
   background-position: center;
   background-size: cover;
-  background-image: url("./public/images/kiterteam.webp");
+  background-image: url("../images/kiterteam.webp");
   transition: 0.7s;
   display: flex;
   justify-content: center;

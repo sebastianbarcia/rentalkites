@@ -8,13 +8,15 @@
    width: 350px;
    border-radius: 15px;
    padding: 2rem;
-   box-shadow: 0px 0px 11px 1px var(--greyColorBoxShadowHover);
    margin: 0rem 2rem 
 }
-
+.experiencesStyles{
+    background-color: aliceblue;
+}
 .experiencesStyles div{
     display: flex;
     flex-direction: column;
+    text-align: -webkit-center;
 }
 
 .experiencesStyles div img{
@@ -25,16 +27,20 @@
 
 .titleText{
     font-weight: 800;
+    color: var(--greyColor);
+    font-size: x-large;
 }
 
 p{
     font-size:large;
+    color: var(--greyColor);
 }
 
 .titleExp h4{
-    margin-top: 4rem;
-    margin-bottom: 6rem;
+    margin: 4rem 0;
     text-align: center;
+    color: var(--greyColor);
+    font-size: xx-large;
 }
 @media screen and (max-width:1433px) {
     .experiencesStyles{
@@ -42,6 +48,6 @@ p{
         margin-bottom: 1rem;
     }
     .titleExp h4 {
-        margin-bottom: 5rem;
+        margin-bottom: 2rem;
     }
 }

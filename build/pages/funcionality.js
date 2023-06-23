@@ -4,9 +4,12 @@ function funcionalitys() {
     intro.className = "classPages";
     funcionality.innerHTML += `
     <div class="firstSectionFuncionality">
+    <div>
         <h3>Navega a donde queres!</h3>
         <p>Rental Kites es una aplicacion para bajar a tu telefono movil, alquilar el equipo que quieras y a navegar!</p>
+    </div>    
         <img src="./public/images/mockup-avion.png" alt="mockup-index">    
+        
     </div>
 
     <div class="container_all">
