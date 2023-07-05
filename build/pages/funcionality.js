@@ -54,12 +54,12 @@ function funcionalitys() {
                 </div>
                 <div>
                     <p class="numberFuncionality">6</p>
-                    <img  src="./public/images/vectors/handcard-img.svg"></img>
+                    <img src="./public/images/vectors/handcard-img.svg"></img>
                     <p>Reserva ingresando tu tarjeta de credito</p>
                 </div>
             </div>
             <div class="containerImg">
-                <img class="video" src="/public/images/VideoPrototipo.mp4">
+                <video src="../public/images/VideoPrototipo.mp4" autoplay muted playsinline></video>
             </div>
             </div>
         </div>
@@ -77,9 +77,8 @@ function funcionalitys() {
 <p class="textFuncionalitysDownload">El proceso de descarga es muy facil: elige el tipo de descarga en tu movil android o ios</p>
 <p class="textFuncionalitysDownload text-margin-top-bottom"> Despues tienes que registrarte y podrás acceder a publicar o alquilar el equipo que quieras mediante nuestro buscador</p>
     <div class="margend">
-   
         <div>
-            <img class="imgWidthMargend" src="./public/images/MockupRegistrologin.pdf">
+            <img class="imgWidthMargend" src="./public/images/mockup-login.png"></img>
         </div>
     </div>
     <h4 class="textFuncionalitysDownload text-margin-top-bottom">Explora la aplicación</h4>

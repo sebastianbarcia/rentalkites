@@ -8,14 +8,14 @@ export default function aboutUs(){
 
 aboutUs.innerHTML = `
     <div class="aboutUs">
-        <h4>Somos un equipo de trabajo que tenia un problema</h4>
-    
-    <div class="ask marginPageAboutUs">
+    <div>
         <img src="./public/images/vectors/ask.svg">
+    </div>
+        <h4>Somos un equipo de trabajo que tenia 5 problemas</h4>
+        
+    <div class="ask marginPageAboutUs">
         <div>
-        <h3>Problema</h3>
         <ul>
-            <p>Los Kitesurfistas que quieren irse de viaje a otros sitios a practicarlo tienen los siguientes 5 problemas:</p>
             <li>
                 <p class="numberFile">1</p> <p> Las aerolíneas cobran el equipo como equipaje facturable, lo cual es muy caro. (Aproximadamente USD 100 por tramo).</p>
             </li>
@@ -32,7 +32,7 @@ aboutUs.innerHTML = `
         </ul>
         </div>
     </div>
-
+    <div class="divider">
     <div class="target marginPageAboutUs">
        
         <img src="./public/images/vectors/target.svg">  
@@ -49,6 +49,7 @@ aboutUs.innerHTML = `
             <p>Rental Kite es una app sencilla e intuitiva que le permite a los amantes del Kitesurf alquilar equipos en cualquier parte del mundo a precios accesibles y sin complicaciones</p>
         </div>
     </div>
+    </div>
     <div class="missionValue">
         <div>
             <img src="./public/images/achievement.png">
@@ -59,18 +60,6 @@ aboutUs.innerHTML = `
             <img src="./public/images/diamond.png">
             <h3>Valor</h3>
             <p>Tambien buscamos que sea una herramienta de ayuda a quienes deseen ganar un dinero extra alquilando sus equipos a otros kiters</p>
-        </div>
-    </div>
-    
-    <div class="containerImages">
-        <div class="containerImage">
-            <div class="childImage">
-                <h4>Nuestro lugar de trabajo</h4>
-            </div>
-        </div>
-        <div class="containerImage">
-        <div class="childImageTwo">
-            <h4>Nuestro equipo</h4>
         </div>
     </div>
     </div>
