@@ -2,7 +2,7 @@
   text-align: center;
   margin: 2rem 2rem 3rem 2rem;
 }
-.aboutUs > div{
+.aboutUs  div{
   display: flex;
   justify-content: center;
   margin-top: 2rem;
@@ -52,7 +52,6 @@ p {
   display: flex;
   /* justify-content: center; */
   align-items: center;
-  gap: 4rem;
   margin-top: 6rem;
   font-size: medium;
 }
@@ -61,7 +60,6 @@ p {
   display: flex;
   /* justify-content: center; */
   align-items: center;
-  gap: 4rem;
   margin: 6rem 0rem;
   font-size: medium;
 }
@@ -141,8 +139,17 @@ p {
   margin-left: 8%;
   margin-right: 8%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
-
+.marginPageAboutUs > div{
+  display: flex;
+  flex-direction: column;
+}
+.divider{
+  display: flex;
+  flex-direction: column;
+}
 .aboutUs p{
   line-height: 2.5;
 }

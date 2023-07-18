@@ -42,7 +42,7 @@ aboutUs.innerHTML = `
     </div>  
     </div>
 
-    <div class="solution marginPageAboutUs">
+    <div class="target marginPageAboutUs">
         <img src="./public/images/vectors/isologotipo.svg">
         <div>
             <h3>Solución</h3>
