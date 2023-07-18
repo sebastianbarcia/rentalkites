@@ -1,16 +1,22 @@
+.aboutUs {
+  background-image: linear-gradient(#ffffff, #92c4dc);
+}
 .aboutUs > h4 {
   text-align: center;
   margin: 2rem 2rem 3rem 2rem;
 }
-.aboutUs  div{
+.aboutUs > div > img {
+  width: 6%;
+}
+.aboutUs div {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
 }
-.aboutUs div img {
-  width: 5%;
-}
 
+.divider .marginPageAboutUs img {
+  width: 10%;
+}
 .aboutUs .ask {
   display: flex;
   justify-content: center;
@@ -47,18 +53,22 @@ p {
   width: 80%;
 }
 
-
 .target {
   display: flex;
-  /* justify-content: center; */
+  width: 50%;
   align-items: center;
   margin-top: 6rem;
   font-size: medium;
 }
+.target div {
+  margin-top: 1rem;
+}
 
+.target div p {
+  line-height: 27px;
+}
 .solution {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   margin: 6rem 0rem;
   font-size: medium;
@@ -74,30 +84,35 @@ p {
   background-image: url("../images/fondo-rentalkites.svg");
   background-repeat: no-repeat;
   background-position: bottom;
-  
+
   background-size: cover;
 }
 
 .missionValue div {
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 0px 10px 1px var(--greyLightTwo);
-  width: 40%;
+  width: 32%;
   text-align: center;
   align-items: center;
   border-radius: 15px;
   background-color: var(--whiteColor);
+  padding-bottom: 1rem;
 }
 
 .missionValue div p {
   padding-left: 2rem;
   padding-right: 2rem;
+  line-height: 25px;
 }
 
-.missionValue div img{
+.missionValue div img {
   margin-top: 2rem;
+  width: 12%;
 }
-
+.missionValue h3 {
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
+}
 .teamRentalKites .imgTeam {
   background-image: url("./public/images/kiterteam.webp");
 }
@@ -135,34 +150,48 @@ p {
   color: var(--whiteColor);
 }
 
-.marginPageAboutUs{
-  margin-left: 8%;
-  margin-right: 8%;
+.marginPageAboutUs {
   text-align: center;
   display: flex;
   flex-direction: column;
 }
-.marginPageAboutUs > div{
+.marginPageAboutUs > div {
   display: flex;
   flex-direction: column;
 }
-.divider{
+.aboutUs .divider {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 4rem;
+  margin-left: 15%;
+  margin-right: 15%;
 }
-.aboutUs p{
+.aboutUs p {
   line-height: 2.5;
 }
 
-@media screen and (max-width:878px) {
-  .aboutUs .ask{
+@media screen and (max-width: 878px) {
+  .aboutUs .ask {
     flex-wrap: wrap;
   }
-  .aboutUs img{
+  .aboutUs img {
     width: 25%;
+  }
+  .aboutUs > div > img {
+    width: 13%;
+  }
+  .divider .marginPageAboutUs img {
+    width: 15%;
   }
   .missionValue div {
     width: 80%;
   }
+  .divider{
+   display: flex;
+   flex-direction: column;
+  }
+  .divider .target{
+    width: 100%;
+  }
 }
-
