@@ -36,13 +36,30 @@ const toggleButton = document.getElementById('button-menu')!
 const navWrapper = document.getElementById('nav')!
 
 toggleButton.addEventListener('click',() => {
-  toggleButton.classList.toggle('close')
-  navWrapper.classList.toggle('show')
+  show()
 })
 
  navWrapper.addEventListener('click',e => {
    if((<HTMLTextAreaElement>e.target).id === 'nav'){
-     navWrapper.classList.remove('show')
-     toggleButton.classList.remove('close')
+   hide()
    }
  })
+
+// Cerrar el menu en responsive al tocar una etiqueta <a>
+
+ document.addEventListener("DOMContentLoaded", function() {
+  let miEnlace = document.querySelectorAll(".links");
+  miEnlace.forEach(function(enlace){
+    enlace.addEventListener("click",hide)
+  })
+});
+
+function hide(){
+  navWrapper.classList.remove('show')
+  toggleButton.classList.remove('close')
+}
+
+function show(){
+  toggleButton.classList.toggle('close')
+  navWrapper.classList.toggle('show')
+}

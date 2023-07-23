@@ -205,5 +205,3 @@ function clickSelection(boton:any , _equipments: any){
 }
 
 
-  
-
